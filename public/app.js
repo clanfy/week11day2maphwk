@@ -9,6 +9,8 @@ var init = function(){
   mainMap.addMarker(center, information);
   mainMap.addClickEvent();
 
+var button = document.querySelector('button');
+button.onclick = mainMap.handleClick;
 
 
 

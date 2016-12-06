@@ -35,6 +35,9 @@ MapWrapper.prototype = {
     var infowindow = new google.maps.InfoWindow({
     content: "content string stuff" 
     });
+  },
+  handleClick: function(){
+
   }
 
 };
